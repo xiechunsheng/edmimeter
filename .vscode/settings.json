@@ -1,0 +1,30 @@
+{
+  "github.copilot.chat.models": [
+    {
+      "id": "claude-opus-4-6",
+      "name": "Claude Opus 4.6",
+      "vendor": "anthropic",
+      "version": "claude-opus-4-6",
+      "family": "claude-opus",
+      "maxInputTokens": 200000,
+      "maxOutputTokens": 4096,
+      "capabilities": {
+        "streaming": true,
+        "tools": true
+      }
+    },
+    {
+      "id": "claude-sonnet-4-6",
+      "name": "Claude Sonnet 4.6",
+      "vendor": "anthropic",
+      "version": "claude-sonnet-4-6",
+      "family": "claude-sonnet",
+      "maxInputTokens": 200000,
+      "maxOutputTokens": 4096,
+      "capabilities": {
+        "streaming": true,
+        "tools": true
+      }
+    }
+  ]
+}
